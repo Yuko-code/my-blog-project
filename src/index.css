@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/*
+
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+*/
 
 * {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
-body {
   margin: 0;
-  background-color: #3f3f3f;
+  padding: 0;
 }
-

@@ -1,0 +1,28 @@
+.header {
+  background-color: orange;
+}
+
+.header-container {
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px 0;
+}
+
+.header-nav__item {
+  text-decoration: none;
+  color: rgb(15, 14, 14);
+  transition: 0.3s;
+}
+.header-nav__item:nth-of-type(1) {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header-nav__item:active,
+.header-nav__item:hover {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
